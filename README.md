@@ -2,7 +2,7 @@
 
 ## Capstone Project – CareCast Team
 
-## 📌 Project Overview
+## Project Overview
 
 Healthcare insurance companies need accurate methods for estimating medical expenses to improve premium pricing, risk assessment, and financial planning. This project develops a machine learning regression model that predicts individual healthcare insurance charges based on demographic and lifestyle characteristics.
 
@@ -10,7 +10,7 @@ Using Exploratory Data Analysis (EDA) and multiple regression algorithms, the pr
 
 
 
-## 🎯 Business Problem
+## Business Problem
 
 Healthcare expenses vary significantly among individuals due to factors such as age, body mass index (BMI), smoking habits, family size, sex, and geographical region.
 
@@ -21,7 +21,7 @@ The objective of this project is to:
 * Identify the best-performing model.
 * Provide business recommendations for healthcare insurance pricing and risk assessment.
 
----
+
 
 ## 📂 Dataset
 
@@ -42,7 +42,7 @@ https://www.kaggle.com/datasets/mirichoi0218/insurance
 | region   | Residential region                          |
 | charges  | Medical insurance charges (Target Variable) |
 
----
+
 
 ## 🛠 Technologies Used
 
@@ -55,7 +55,7 @@ https://www.kaggle.com/datasets/mirichoi0218/insurance
 * Scikit-learn
 * Joblib
 
----
+
 
 ## 📊 Exploratory Data Analysis (EDA)
 
@@ -79,7 +79,7 @@ The following analyses were performed:
 * Region has relatively little effect on insurance charges.
 * Healthcare charges are highly right-skewed with genuine high-cost outliers.
 
----
+
 
 ## 🤖 Machine Learning Models
 
@@ -98,7 +98,7 @@ Models were compared using:
 * R² Score
 * Cross-validation
 
----
+
 
 ## 📈 Model Evaluation
 
@@ -114,7 +114,7 @@ Additional evaluation included:
 * Residual analysis
 * Feature importance analysis
 
----
+
 
 ## 💡 Business Recommendations
 
@@ -126,7 +126,7 @@ Based on the analysis:
 * Improve financial planning through accurate healthcare cost estimation.
 * Support data-driven underwriting and pricing decisions.
 
----
+
 
 ## 📁 Project Structure
 
@@ -149,9 +149,9 @@ Medical-Insurance-Cost-Prediction/
 │
 ├── README.md
 └── requirements.txt
-```
 
----
+
+
 
 ## 🚀 How to Run the Project
 
@@ -181,37 +181,33 @@ jupyter notebook
 
 5. Open the notebook and run all cells.
 
----
 
-## 👥 Team
+## 👥 CareCast Team
 
-**CareCast Team**
-| Name | Role |
+This capstone project was completed collaboratively by the **CareCast Team**, with each member contributing to a specific stage of the machine learning workflow.
 
-|------|------|
+| Team Member                     | Role                         |
+| ------------------------------- | ---------------------------- |
+| **Onyekanle Celestina Chinedu** | Team Leader                  |
+| **Emmanuel**                    | Data Cleaning                |
+| **Adeniyi**                     | Exploratory Data Analysis    |
+| **Imadon**                      | Exploratory Data Analysis    |
+| **Favour Awofiranye**           | Feature Engineering          |
+| **Adeniran**                    | Linear Regression Models     |
+| **Geoffrey**                    | Tree-Based Models            |
+| **Hannat**                      | Model Evaluation             |
+| **Israel**                      | Documentation & Slides       |
 
-| Onyekanle Celestina Chinedu | Team Leader |
 
-| Emmanuel | Data Cleaning |
+### Team Responsibilities
 
-| Adeniyi | Exploratory Data Analysis |
+The project was developed using a collaborative workflow in which each member was responsible for a specific phase of the data science lifecycle, including data preparation, exploratory data analysis, feature engineering, model development, evaluation, documentation, and presentation. This division of responsibilities ensured efficient teamwork while maintaining consistency and quality throughout the project.
 
-| Imadon | Exploratory Data Analysis |
-
-| Favour Awofiranye | Feature Engineering |
-
-| Adeniran | Linear Regression Models |
-
-| Geoffrey | Tree-Based Models |
-
-| Hannat | Model Evaluation |
-
-| Israel | Documentation & Presentation |
 
 
 Project developed as part of a Data Science Capstone Project.
 
----
+
 
 ## 📄 License
 
