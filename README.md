@@ -1,105 +1,218 @@
-# CareCast – Medical Insurance Cost Prediction
+# 🏥 Medical Insurance Cost Prediction
 
-## TechCrush Capstone Project
+## Capstone Project – CareCast Team
 
-### Team Name
-**CareCast**
+## 📌 Project Overview
 
+Healthcare insurance companies need accurate methods for estimating medical expenses to improve premium pricing, risk assessment, and financial planning. This project develops a machine learning regression model that predicts individual healthcare insurance charges based on demographic and lifestyle characteristics.
 
-
-## Project Overview
-
-This project aims to develop a machine learning model that predicts individual healthcare insurance charges based on demographic and lifestyle factors such as age, BMI, smoking status, gender, number of children, and region.
-
-The project includes:
-
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Regression Model Development
-- Model Evaluation
-- Business Recommendations
-
-
-## Problem Statement
-
-Healthcare expenses vary significantly among individuals due to differences in age, lifestyle, medical history, and demographic factors. This project develops a predictive model to estimate medical insurance costs and identify the key factors influencing healthcare expenses.
+Using Exploratory Data Analysis (EDA) and multiple regression algorithms, the project identifies the key factors influencing insurance costs and selects the best-performing predictive model.
 
 
 
-## Objectives
+## 🎯 Business Problem
 
-- Understand the dataset
-- Perform data cleaning and preprocessing
-- Explore patterns using EDA
-- Build regression models
-- Evaluate model performance
-- Identify the most important predictors
-- Provide business recommendations
+Healthcare expenses vary significantly among individuals due to factors such as age, body mass index (BMI), smoking habits, family size, sex, and geographical region.
 
+The objective of this project is to:
 
-
-## Dataset
-
-Source:
-https://www.kaggle.com/datasets/mirichoi0218/insurance/data
-
-Dataset Name:
-Medical Cost Personal Dataset
-
-
-
-## Project Structure
-
-
-CareCast-Medical-Insurance-Cost-Prediction
-│
-├── data/
-├── notebooks/
-├── images/
-├── reports/
-├── presentation/
-├── README.md
-└── requirements.txt
-
-
-
-
-## Team Members
-
-| Name | Role |
-|------|------|
-| Onyekanle Celestina Chinedu | Team Leader |
-| Emmanuel | Data Cleaning |
-| Adeniyi | Exploratory Data Analysis |
-| Imadon | Exploratory Data Analysis |
-| Favour Awofiranye | Feature Engineering |
-| Adeniran | Linear Regression Models |
-| Geoffrey | Tree-Based Models |
-| Hannat | Model Evaluation |
-| Israel | Documentation & Presentation |
-
-
-
-## Tools and Technologies
-
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- Git
-- GitHub
+* Explore the dataset to understand factors influencing medical insurance charges.
+* Build and compare multiple regression models.
+* Identify the best-performing model.
+* Provide business recommendations for healthcare insurance pricing and risk assessment.
 
 ---
 
-## Repository Status
+## 📂 Dataset
 
-🚧 Project in Progress
+**Dataset Source:** Kaggle – Medical Cost Personal Dataset
 
-Expected Completion Date:
-29 July 2026
+**Dataset Link:**
+https://www.kaggle.com/datasets/mirichoi0218/insurance
 
-Official Submission Deadline:
-2 August 2026
+### Features
+
+| Feature  | Description                                 |
+| -------- | ------------------------------------------- |
+| age      | Age of the primary beneficiary              |
+| sex      | Gender                                      |
+| bmi      | Body Mass Index                             |
+| children | Number of dependents                        |
+| smoker   | Smoking status                              |
+| region   | Residential region                          |
+| charges  | Medical insurance charges (Target Variable) |
+
+---
+
+## 🛠 Technologies Used
+
+* Python
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Joblib
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+The following analyses were performed:
+
+* Data inspection
+* Missing value analysis
+* Duplicate detection
+* Descriptive statistics
+* Distribution of numerical variables
+* Distribution of categorical variables
+* Correlation analysis
+* Relationship between features and insurance charges
+* Outlier detection
+
+### Key Insights
+
+* Smoking status has the strongest influence on insurance charges.
+* Older individuals generally incur higher healthcare expenses.
+* Higher BMI is associated with increased medical costs.
+* Region has relatively little effect on insurance charges.
+* Healthcare charges are highly right-skewed with genuine high-cost outliers.
+
+---
+
+## 🤖 Machine Learning Models
+
+The following regression algorithms were trained and evaluated:
+
+* Linear Regression
+* Decision Tree Regressor
+* Random Forest Regressor
+* Extra Trees Regressor
+* Gradient Boosting Regressor
+
+Models were compared using:
+
+* Mean Absolute Error (MAE)
+* Root Mean Squared Error (RMSE)
+* R² Score
+* Cross-validation
+
+---
+
+## 📈 Model Evaluation
+
+The best-performing model was selected based on:
+
+* Highest R² Score
+* Lowest MAE
+* Lowest RMSE
+
+Additional evaluation included:
+
+* Actual vs Predicted plot
+* Residual analysis
+* Feature importance analysis
+
+---
+
+## 💡 Business Recommendations
+
+Based on the analysis:
+
+* Incorporate smoking status into premium pricing strategies.
+* Encourage preventive healthcare programs to reduce long-term medical costs.
+* Use predictive analytics for personalized insurance plans.
+* Improve financial planning through accurate healthcare cost estimation.
+* Support data-driven underwriting and pricing decisions.
+
+---
+
+## 📁 Project Structure
+
+```
+Medical-Insurance-Cost-Prediction/
+│
+├── data/
+│   └── insurance.csv
+│
+├── notebooks/
+│   └── Carecast_Team.ipynb
+│
+├── models/
+│   ├── best_insurance_model.pkl
+│   ├── standard_scaler.pkl
+│   └── label_encoder.pkl
+│
+├── results/
+│   └── model_performance.csv
+│
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository.
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+```
+
+2. Navigate to the project directory.
+
+```bash
+cd your-repository
+```
+
+3. Install the required packages.
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Launch Jupyter Notebook.
+
+```bash
+jupyter notebook
+```
+
+5. Open the notebook and run all cells.
+
+---
+
+## 👥 Team
+
+**CareCast Team**
+| Name | Role |
+
+|------|------|
+
+| Onyekanle Celestina Chinedu | Team Leader |
+
+| Emmanuel | Data Cleaning |
+
+| Adeniyi | Exploratory Data Analysis |
+
+| Imadon | Exploratory Data Analysis |
+
+| Favour Awofiranye | Feature Engineering |
+
+| Adeniran | Linear Regression Models |
+
+| Geoffrey | Tree-Based Models |
+
+| Hannat | Model Evaluation |
+
+| Israel | Documentation & Presentation |
+
+
+Project developed as part of a Data Science Capstone Project.
+
+---
+
+## 📄 License
+
+This project is intended for educational purposes.
